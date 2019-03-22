@@ -22,6 +22,7 @@ app_trace.o: \
  C:/msys32/home/xgiac/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
  C:/msys32/home/xgiac/esp/esp-idf/components/newlib/include/stdint.h \
  C:/msys32/home/xgiac/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ C:/msys32/home/xgiac/esp/esp-idf/components/esp32/include/esp_assert.h \
  C:/msys32/home/xgiac/esp/esp-idf/components/newlib/platform_include/assert.h \
  C:/msys32/home/xgiac/esp/hello_world/build/include/sdkconfig.h \
  C:/msys32/home/xgiac/esp/esp-idf/components/newlib/include/stdlib.h \
