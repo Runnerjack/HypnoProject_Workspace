@@ -88,6 +88,7 @@ uint32_t hash(char str[], int DIM);
 void
 app_main(void)
 {
+    printf("PROGETTO PDS\n");
     /* WIFI setup */
     wifi_sniffer_init();
 
