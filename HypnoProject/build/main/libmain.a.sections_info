@@ -1,0 +1,98 @@
+In archive C:/msys32/home/xgiac/esp/HypnoProject_J/build/main/libmain.a:
+
+Manu.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .iram1.15.literal 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.print_timer_counter 00000020  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.timer_evt_task 0000003c  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.print_timestamp_buffer 00000018  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.event_handler 0000000c  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.tg0_timer_init 00000044  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.wifi_sniffer_init 000000e8  00000000  00000000  0000010c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.app_main 00000010  00000000  00000000  000001f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.print_proberequest 00000024  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.hash 00000004  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .literal.wifi_sniffer_packet_handler 00000044  00000000  00000000  0000022c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text         00000000  00000000  00000000  00000270  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .data         00000000  00000000  00000000  00000270  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .bss          00000000  00000000  00000000  00000270  2**0
+                  ALLOC
+ 14 .iram1.15     000000d8  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .rodata.str1.4 00000396  00000000  00000000  00000348  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 16 .text.print_timer_counter 00000037  00000000  00000000  000006e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.timer_evt_task 00000070  00000000  00000000  00000718  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.print_timestamp_buffer 00000028  00000000  00000000  00000788  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.event_handler 00000019  00000000  00000000  000007b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.tg0_timer_init 000000a0  00000000  00000000  000007cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.wifi_sniffer_init 000001df  00000000  00000000  0000086c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.app_main 00000028  00000000  00000000  00000a4c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.print_proberequest 00000086  00000000  00000000  00000a74  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.hash    00000021  00000000  00000000  00000afc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.wifi_sniffer_packet_handler 0000017e  00000000  00000000  00000b20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .rodata.__func__$8788 00000012  00000000  00000000  00000ca0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .data.turn    00000004  00000000  00000000  00000cb4  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 28 .bss.stop2    00000001  00000000  00000000  00000cb8  2**0
+                  ALLOC
+ 29 .bss.stop1    00000001  00000000  00000000  00000cb8  2**0
+                  ALLOC
+ 30 .bss.count    00000004  00000000  00000000  00000cb8  2**2
+                  ALLOC
+ 31 .rodata.CHANNEL_TO_SNIFF 00000001  00000000  00000000  00000cb8  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 32 .data.wifi_country 0000000c  00000000  00000000  00000cbc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 33 .bss.HandleTask 00000004  00000000  00000000  00000cc8  2**2
+                  ALLOC
+ 34 .debug_frame  00000118  00000000  00000000  00000cc8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 35 .debug_info   0000312e  00000000  00000000  00000de0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_abbrev 00000489  00000000  00000000  00003f0e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 37 .debug_loc    0000049d  00000000  00000000  00004397  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_aranges 00000070  00000000  00000000  00004834  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_ranges 00000078  00000000  00000000  000048a4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_line   000009f9  00000000  00000000  0000491c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_str    00001f50  00000000  00000000  00005315  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 42 .comment      0000003c  00000000  00000000  00007265  2**0
+                  CONTENTS, READONLY
+ 43 .xtensa.info  00000038  00000000  00000000  000072a1  2**0
+                  CONTENTS, READONLY
+ 44 .xt.lit       00000058  00000000  00000000  000072d9  2**0
+                  CONTENTS, RELOC, READONLY
+ 45 .xt.prop      00000384  00000000  00000000  00007331  2**0
+                  CONTENTS, RELOC, READONLY
